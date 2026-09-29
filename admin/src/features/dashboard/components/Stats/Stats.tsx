@@ -1,0 +1,1 @@
+export function Stats({tours,bookings}:{tours:number;bookings:number}){return <div className="stats"><div>Tours<strong>{tours}</strong></div><div>Bookings<strong>{bookings}</strong></div><div>Pending<strong>{Math.floor(bookings/2)}</strong></div></div>}

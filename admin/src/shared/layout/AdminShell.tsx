@@ -1,0 +1,1 @@
+import type {ReactNode} from "react";import {Sidebar} from "./sidebar/Sidebar";export function AdminShell({children}:{children:ReactNode}){return <div className="admin-shell"><Sidebar/><main>{children}</main></div>}
